@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/bin/cnd:system/bin/cnd \
     $(PATH_FILES)/bin/dpmd:system/bin/dpmd \
     $(PATH_FILES)/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    $(PATH_FILES)/bin/hvdcp:system/bin/hvdcp \
     $(PATH_FILES)/bin/irsc_util:system/bin/irsc_util \
     $(PATH_FILES)/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     $(PATH_FILES)/bin/location-mq:system/bin/location-mq \
@@ -40,6 +41,7 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/bin/thermal-engine:system/bin/thermal-engine \
     $(PATH_FILES)/bin/time_daemon:system/bin/time_daemon \
     $(PATH_FILES)/bin/vm_bms:system/bin/vm_bms
+# Quick Charge (V7.0.5.0)= hvdcp
 
 # Etc
 PRODUCT_COPY_FILES += \
@@ -103,7 +105,7 @@ PRODUCT_COPY_FILES += \
 
 # Lib
 PRODUCT_COPY_FILES += \
-    $(PATH_FILES)/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so
+     $(PATH_FILES)/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so
 
 PRODUCT_COPY_FILES += \
     $(PATH_FILES)/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
