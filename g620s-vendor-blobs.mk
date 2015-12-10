@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/bin/rmt_storage:system/bin/rmt_storage \
     $(PATH_FILES)/bin/test_diag:system/bin/test_diag \
     $(PATH_FILES)/bin/thermal-engine:system/bin/thermal-engine \
-    $(PATH_FILES)/bin/time_daemon:system/bin/time_daemon \
     $(PATH_FILES)/bin/vm_bms:system/bin/vm_bms
 # Quick Charge (V7.0.5.0)= hvdcp
 
@@ -104,8 +103,8 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/etc/spn-conf.xml:system/etc/spn-conf.xml
 
 # Lib
-PRODUCT_COPY_FILES += \
-     $(PATH_FILES)/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so
+# PRODUCT_COPY_FILES += \
+#      $(PATH_FILES)/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so
 
 PRODUCT_COPY_FILES += \
     $(PATH_FILES)/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
@@ -668,7 +667,6 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     $(PATH_FILES)/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     $(PATH_FILES)/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-    $(PATH_FILES)/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     $(PATH_FILES)/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     $(PATH_FILES)/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     $(PATH_FILES)/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
